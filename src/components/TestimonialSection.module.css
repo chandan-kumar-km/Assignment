@@ -1,0 +1,181 @@
+.logomarkIcon {
+  height: 40px;
+  width: 24.2px;
+  position: relative;
+}
+.logotypeIcon {
+  align-self: stretch;
+  height: 22.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logotypeWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 var(--padding-6xs);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.fictionalCompanyLogo {
+  width: 140.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-8);
+}
+.fictionalCompanyLogoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.quote {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.avatarContrastInnerBorder {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: var(--br-181xl);
+  border: 0.8px solid var(--gray-900);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.08;
+}
+.avatar,
+.avatarWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.avatar {
+  height: 64px;
+  width: 64px;
+  border-radius: var(--br-181xl);
+  justify-content: flex-start;
+  background-image: url(/public/avatar1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.avatarWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.nameLabel,
+.supportingText {
+  align-self: stretch;
+  position: relative;
+}
+.nameLabel {
+  line-height: 28px;
+  font-weight: 600;
+}
+.supportingText {
+  font-size: var(--text-md-regular-size);
+  line-height: 24px;
+  color: var(--gray-600);
+}
+.textAndSupportingText {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.avatarAndText,
+.quoteAndAttribution,
+.textAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.avatarAndText {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--text-lg-regular-size);
+}
+.quoteAndAttribution {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.container,
+.content,
+.testimonialSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content {
+  flex: 1;
+}
+.container,
+.testimonialSection {
+  box-sizing: border-box;
+}
+.container {
+  flex: 1;
+  padding: 0 var(--padding-13xl);
+}
+.testimonialSection {
+  align-self: stretch;
+  background-color: var(--gray-50);
+  overflow: hidden;
+  padding: var(--padding-77xl) var(--padding-61xl);
+  text-align: center;
+  font-size: var(--display-lg-medium-size);
+  color: var(--gray-900);
+  font-family: var(--text-md-regular);
+}
+@media screen and (max-width: 1050px) {
+  .quote {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .quoteAndAttribution {
+    gap: var(--gap-base);
+  }
+  .content {
+    gap: var(--gap-xl);
+  }
+  .container {
+    gap: var(--gap-base);
+  }
+  .testimonialSection {
+    gap: var(--gap-13xl);
+    padding: var(--padding-43xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quote {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .testimonialSection {
+    gap: var(--gap-base);
+  }
+}

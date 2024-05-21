@@ -1,0 +1,242 @@
+.proofCopy {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.logomarkIcon {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.logotypeIcon {
+  align-self: stretch;
+  height: 21.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fictionalCompanyLogo,
+.logotypeWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logotypeWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs-5) 0 0;
+}
+.fictionalCompanyLogo {
+  width: 170px;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs-4);
+}
+.logomarkIcon1 {
+  height: 44px;
+  width: 38px;
+  position: relative;
+}
+.logotypeIcon1 {
+  align-self: stretch;
+  height: 29.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logotypeContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 var(--padding-8xs-6);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.fictionalCompanyLogo1 {
+  width: 167px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-smi-7);
+}
+.logomarkIcon2 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.logotypeIcon2 {
+  align-self: stretch;
+  height: 20.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logotypeFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs-6);
+}
+.fictionalCompanyLogo2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs-9);
+  min-width: 129px;
+}
+.logomarkIcon3 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.logotypeIcon3 {
+  align-self: stretch;
+  height: 27.8px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 var(--padding-7xs-9);
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.fictionalCompanyLogo3 {
+  width: 166px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs-7);
+}
+.logomarkIcon4 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+}
+.logotypeIcon4 {
+  align-self: stretch;
+  height: 21.9px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fictionalCompanyLogo4,
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-3) 0 0;
+}
+.fictionalCompanyLogo4 {
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+  min-width: 129px;
+}
+.logomarkIcon5,
+.logotypeIcon5 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logomarkIcon5 {
+  height: 44px;
+  width: 44px;
+}
+.logotypeIcon5 {
+  align-self: stretch;
+  height: 21.2px;
+  max-width: 100%;
+}
+.logotypeWrapper1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-9) 0 0;
+}
+.fictionalCompanyLogo5,
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.fictionalCompanyLogo5 {
+  width: 182px;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs-9);
+}
+.logos {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-8xl-2);
+}
+.container,
+.socialProofSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-13xl);
+}
+.socialProofSection {
+  align-self: stretch;
+  background-color: var(--base-white);
+  flex-direction: row;
+  padding: var(--padding-77xl) var(--padding-61xl);
+  text-align: center;
+  font-size: var(--text-md-regular-size);
+  color: var(--gray-600);
+  font-family: var(--text-md-regular);
+}
+@media screen and (max-width: 750px) {
+  .container {
+    gap: var(--gap-base);
+  }
+  .socialProofSection {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

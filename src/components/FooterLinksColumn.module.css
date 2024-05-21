@@ -1,0 +1,334 @@
+.heading {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.placeholderIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 70px;
+}
+.placeholderIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button,
+.footerLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink {
+  justify-content: flex-start;
+}
+.placeholderIcon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 62px;
+}
+.placeholderIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1,
+.footerLink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink1 {
+  justify-content: flex-start;
+}
+.placeholderIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text2 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 44px;
+}
+.placeholderIcon5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button2,
+.footerLink2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button2 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink2 {
+  justify-content: flex-start;
+}
+.placeholderIcon6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text3 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 44px;
+}
+.placeholderIcon7 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button3,
+.footerLink3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button3 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink3 {
+  justify-content: flex-start;
+}
+.placeholderIcon8 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text4 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+}
+.placeholderIcon9 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button4,
+.footerLink4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button4 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink4 {
+  justify-content: flex-start;
+}
+.placeholderIcon10 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text5 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 62px;
+}
+.placeholderIcon11 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button5,
+.footerLink5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button5 {
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink5 {
+  justify-content: flex-start;
+}
+.placeholderIcon12 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.placeholderIcon13 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button6,
+.footerLink6 {
+  flex-direction: row;
+  align-items: center;
+}
+.button6 {
+  height: 24px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink6 {
+  width: 74px;
+  display: none;
+  justify-content: flex-start;
+}
+.placeholderIcon14 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.placeholderIcon15 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button7,
+.footerLink7 {
+  flex-direction: row;
+  align-items: center;
+}
+.button7 {
+  height: 24px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.footerLink7 {
+  width: 74px;
+  display: none;
+  justify-content: flex-start;
+}
+.footerLinks,
+.footerLinksColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerLinks {
+  align-self: stretch;
+  padding: 0 var(--padding-86xl) 0 0;
+  gap: var(--gap-xs);
+  font-size: var(--text-md-regular-size);
+  color: var(--gray-600);
+}
+.footerLinksColumn {
+  flex: 1;
+  gap: var(--gap-base);
+  min-width: 172px;
+  max-width: 176px;
+  text-align: left;
+  font-size: var(--text-sm-semibold-size);
+  color: var(--gray-500);
+  font-family: var(--text-md-regular);
+}

@@ -1,0 +1,108 @@
+.badgeLabel {
+  position: relative;
+  font-size: var(--text-sm-semibold-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--text-md-regular);
+  color: var(--primary-700);
+  text-align: center;
+  display: inline-block;
+  min-width: 59px;
+}
+.badge,
+.badge:hover {
+  box-sizing: border-box;
+}
+.badge {
+  cursor: pointer;
+  border: 1px solid var(--primary-200);
+  padding: var(--padding-11xs) var(--padding-2xs);
+  background-color: var(--primary-50);
+  width: 83px;
+  border-radius: var(--br-base);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  mix-blend-mode: multiply;
+}
+.badge:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-thistle-100);
+}
+.heading {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.headingAndBadge {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-xl-regular-size);
+  line-height: 30px;
+  color: var(--gray-600);
+}
+.container,
+.content,
+.headingAndSupportingText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headingAndSupportingText {
+  width: 768px;
+  gap: var(--gap-xl);
+}
+.container,
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.container {
+  align-items: flex-start;
+  padding: 0 var(--padding-13xl);
+  text-align: center;
+  font-size: var(--display-md-semibold-size);
+  color: var(--gray-900);
+  font-family: var(--text-md-regular);
+}
+@media screen and (max-width: 1050px) {
+  .heading {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .supportingText {
+    font-size: var(--text-md-regular-size);
+    line-height: 24px;
+  }
+  .content {
+    gap: var(--gap-5xl);
+  }
+}

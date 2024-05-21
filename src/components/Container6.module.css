@@ -1,0 +1,186 @@
+.mockupShadow {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 56px);
+  top: 0;
+  right: 28px;
+  bottom: 0;
+  left: 28px;
+  box-shadow: var(--shadow-3xl);
+  background-color: var(--gray-900);
+}
+.screenMockup,
+.screenMockupReplaceFill {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-3xs);
+}
+.screenMockupReplaceFill {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.screenMockup {
+  left: 272px;
+  border: 4px solid var(--gray-900);
+  box-sizing: border-box;
+  width: 776px;
+  height: 520px;
+}
+.dateIcon {
+  height: 6.5px;
+  width: 16.6px;
+  position: relative;
+}
+.rightIcon {
+  align-self: stretch;
+  width: 38.9px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 7px;
+}
+.iphoneMockupStatusBar,
+.iphoneMockupStatusBarWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.iphoneMockupStatusBar {
+  flex: 1;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-4xs) var(--padding-7xs-5)
+    var(--padding-lgi);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.iphoneMockupStatusBarWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl-1);
+}
+.screenMockupReplaceFill1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  margin-top: -38.6px;
+}
+.home {
+  height: 2.9px;
+  flex: 1;
+  position: relative;
+  border-radius: 58.37px;
+  background-color: var(--base-black);
+}
+.iphoneMockupHome,
+.mockupWrap {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iphoneMockupHome {
+  flex-direction: row;
+  padding: var(--padding-smi-3) var(--padding-51xl) var(--padding-8xs-6);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 1;
+  margin-top: -38.6px;
+}
+.mockupWrap {
+  flex: 1;
+  background-color: var(--base-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-1);
+}
+.iphoneMockupIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.iphone12ProMockup {
+  position: absolute;
+  top: 64px;
+  left: 152px;
+  width: 244px;
+  height: 497.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-1) var(--padding-xs) var(--padding-smi-2);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.content1 {
+  height: 719px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.content {
+  align-self: stretch;
+  height: 558px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container,
+.content,
+.content2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.content2 {
+  width: 1216px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.container {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-77xl);
+}
+@media screen and (max-width: 750px) {
+  .content,
+  .content2 {
+    gap: var(--gap-base);
+  }
+  .container {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    gap: var(--gap-5xl);
+  }
+}
